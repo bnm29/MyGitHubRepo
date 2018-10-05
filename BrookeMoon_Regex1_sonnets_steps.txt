@@ -1,0 +1,24 @@
+^\s
+replaced with (nothing)
+
+^\s{2,}
+replaced with 
+
+^\s(\D[I,V,X,L,C,CLIV]+$)
+replaced with <sonnet>\1</sonnet>
+
+^\s([I,L,C,X,V])$
+replaced with <sonnet>\1</sonnet>
+
+^
+replaced with <line>
+
+$
+replaced with </line>
+
+<line><
+replaced with <
+
+></line>
+replaced with >
+
